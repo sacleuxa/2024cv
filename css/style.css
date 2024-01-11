@@ -11,6 +11,10 @@
     line-height: 1.5;
   }
   
+  .linkedin a {
+    color: white;
+  }
+
   a{
     text-decoration: none;
     color: #4472C4;
