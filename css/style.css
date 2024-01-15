@@ -91,6 +91,8 @@
     letter-spacing: 1px;
     margin: 0 0 1rem;
   }
+
+
   
   /* RIGHT COLUMN */
   .right-column{
@@ -126,4 +128,58 @@
   
   .experience-list{
     list-style-type: circle;
+  }
+
+  @media screen and (max-width: 425px){
+    .cv-container{
+        display: flex;
+        flex-direction: column;      
+    }
+
+    .left-column{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 0;
+        padding: 0;
+    }
+
+    .left-column p {
+        font-size:16px;
+        max-width: 425px;
+    }
+
+    .right-column{
+        width: 100%;
+    }
+
+    .skills{
+      margin: 0rem;
+    }
+
+    .portait{
+      margin: 0;
+    }  
+    
+    .cv-container{
+      width: 100%;
+      margin: 0;
+    }
+
+  }
+
+  @media screen and (max-width: 768px){
+    .cv-container{
+        display: flex;
+        flex-direction: column;      
+    }
+
+    .left-column{
+        width: 768px;
+    }
+
+    .right-column{
+        width: 768px;
+    }
   }
